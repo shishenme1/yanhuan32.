@@ -1,0 +1,10 @@
+public class NineNineTable1 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 9; i++) {          //总共9行
+            for (int j = 1; j <= i ; j++) {     //第 i 行有 j 列
+                System.out.print(i + "*" + j + "=" + (i*j) + "\t"); // \t 制表符
+            }
+            System.out.println();               //每一行输出结束后换行
+        }
+    }
+}
